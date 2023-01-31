@@ -83,9 +83,9 @@
         margin-top: 8px;
     }
 }
-
-
-
+.content{
+    background-color: #3E3E3E;
+}
 .first{
     top: 105px;
 left: 30px;
@@ -221,32 +221,180 @@ position: absolute;
 height: 20px;
   }
 }
-
-
-.containt{
-    background-color: #FAFAFA;  
-    margin-left: 250px;
-    margin-top: -100px;
-    width: 1500px;
-    height: 1200px;
-}
+@media(max-width:991px){
+    .sidebar{
+      display: none;
+      width: 150px;
+  height: 20px;
+    }
+  }
 #bord{
-    
-    width: 146px;
-    height: 39px;
-    color: #000000;
-    margin-left: 80px;
+    width: 100%;
+    margin-top: -80px;
 }
-@media(max-width:576px)
-{
-    .containt{
-        width: 1200px;
-        height: 1200px;
-        margin-left: 00px;
-        max-height: 100%;
+.product{
+   
+    background: #FFFFFF;
+    border-radius: 5px;
+   display: flex;
+ 
+    
+}
+.product1{
+   
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    display: flex;
 
-    }
-    #bord{
-        margin-left: 00px;
-    }
+    
+}
+.product2{
+ 
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+  display: flex;
+
+}
+.product3{
+ 
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+   display: flex;
+
+}
+.product4{
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    display: flex;
+    
+} 
+.plogos{
+    top: 35px;
+    left: 42px;
+    width: 40px;
+    height: 45px;
+}
+.num1{
+    top: 30px;
+    left: 95px;
+    width: 33px;
+    height: 33px;
+    color: #3E3E3E;
+  
+}
+.p1{
+    color: #3E3E3E;
+    margin-top: 25px;
+    margin-left: -30px;
+}
+#graph2{
+    top: 345px;
+    left: 50px;
+    width: 802px;
+    height: 335px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 50px;
+}
+#sale{
+    color: #3E3E3E;
+    margin-left: 29px;
+    margin-top: 24PX;
+    width: 100%;
+}
+#week{
+    color: #ADADAD;
+    margin-left: 580px;
+    margin-top: -30px;
+    font-size: 12px;
+    width: 100%;
+}
+#yearly{
+    margin-left: 700px;
+    display: flex;
+    font-size: 12px;
+    color: #C8242F;
+    margin-top: -34px;
+    width: 100%;
+}
+
+
+#country{
+    margin-top: 25px;
+    margin-left: 120px;
+    color: #3E3E3E;
+}
+#pie{
+    margin-top: 5px;
+    margin-left: 78px;
+}
+#radio1{
+    margin-left: 60px;
+    width: 40px;
+    height: 40px;
+}
+
+#usa{
+    margin-left: 95px;
+    margin-top: -28px;
+     width: 166px;
+     height: 20px;
+     color: #3E3E3E;
+     font-size: 13px;
+ }
+ .orange{
+     margin-top: 25px;
+     margin-left: 70px;
+     width: 17px;
+     height: 17px;
+     border-radius: 50%;
+     background: #F16C20 0% 0% no-repeat padding-box;
+ }
+ #russia{
+     margin-left: 22px;
+      color: #3E3E3E;
+      font-size: 13px;
+      margin-top: 00px;
+ }
+ .green{
+    margin-left: 280px;
+    margin-top: -60px;
+     width: 17px;
+     height: 17px;
+     border-radius: 50%;
+     background: #A2B86C 0% 0% no-repeat padding-box;
+ }
+ #canada{
+     color: #3E3E3E;
+      font-size: 13px;
+      margin-left: 25px;
+ }
+ .yellow{
+     margin-left: 280px;
+     margin-top: 30px;
+     width: 17px;
+     height: 17px;
+     border-radius: 50%;
+     background: #EBC844 0% 0% no-repeat padding-box;
+ }
+ #india{
+     color: #3E3E3E;
+      font-size: 13px;
+      margin-left: 25px;
+ }
+
+
+
+ 
+.table{
+    margin: 10px;
+    width: 100%;
+    
+}
+.table th{
+    color: #ADADAD;
+}
+.table td{
+    color: #3E3E3E;
 }
